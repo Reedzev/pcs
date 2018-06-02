@@ -2,7 +2,7 @@
   "name": "powercs/pcs",
   "description": "Simple forum software.",
   "minimum-stability": "beta",
-  "license": "proprietary",
+  "license": "MIT",
   "authors": [
     {
       "name": "Reedzev_",
@@ -16,5 +16,11 @@
   "require-dev": {
     "phpunit/phpunit": "^5.7",
     "filp/whoops": "^2.1.14"
+  },
+  "autoload": {
+    "psr-4": {
+      "PCS\\": "sys/",
+      "PCS\\Core\\": "src/"
+    }
   }
 }
