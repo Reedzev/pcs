@@ -53,6 +53,9 @@ fabric.properties
 # Editor-based Rest Client
 .idea/httpRequests
 
+# VS Code
+.vscode
+
 /vendor/
 composer.lock
 composer.phar
